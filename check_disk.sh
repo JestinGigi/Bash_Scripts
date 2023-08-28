@@ -5,7 +5,8 @@ MAX=50
 df -h | awk 'BEGIN {print "File_System\t\t\tMounted\n"}NR>1{print  $1"\t\t\t\t" $6}'
 
 # Mounted path
-MOUNTED=$(echo -e "\nEnter mounted path: ")
+echo -e "\nEnter mounted path: "
+read MOUNTED
 
 # Get available size of mounted path
 PROCESS=$(df -h | grep $MOUNTED | python3 -c "import sys; data=sys.stdin.read(); print(data.split()[4][:-1])")
