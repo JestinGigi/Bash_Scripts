@@ -1,0 +1,7 @@
+Steps to follow:
+1. Path to the directory
+2. Check if directory exist
+3. Find all the files having size more than 20MB and older than 3 weeks
+4. Create a arhieve directory
+5. Compress all the files
+6. Cron tab job for each day arhieving

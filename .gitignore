@@ -5,3 +5,5 @@ Ls.sh
 read_files.sh
 rm.py
 today_auth_session.sh
+files.txt
+--files-from=files.txt
