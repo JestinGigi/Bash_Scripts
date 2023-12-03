@@ -1,0 +1,8 @@
+<<comments 
+Backup files like:
+/var/lib/jenkins/*.xml
+/var/lib/jenkins/jobs/builds
+/var/lib/jenkins/jobs/plugins/*.hpi
+/var/lib/jenkins/jobs/plugins/*.jpi
+/var/lib/jenkins/tools
+comments
